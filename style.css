@@ -1,0 +1,283 @@
+body
+{
+  color: black;
+}
+
+
+a
+{
+  color: rgba(10,186,238,1);
+}
+
+
+h2
+{
+  font-family: 'Times New Roman'; 
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  color: rgba(94,96,98,1);
+}
+
+
+h3
+{
+  font-family: 'Times New Roman';
+  color: rgba(94,96,98,1);
+}
+
+
+/*Titre principal*/
+.jumbotron h1,
+.jumbotron .h1 
+{
+  font-family: 'Times New Roman'; 
+  padding-top: 80px;
+  padding-bottom: 40px;
+  color: rgba(94,96,98,1);
+  font-weight: bold;
+}
+
+
+/*couleur d'ecriture du formulaire de contact*/
+.modal
+{
+  color: black;
+}
+
+
+/*taille de police coordonnées du formulaire de contact*/
+.modal-header p 
+{
+  font-size: 1.2em;
+}
+
+/*Liens navbar*/
+.navbar a
+{
+	font-size: 1.5em;
+	font-family: 'georgia';
+}
+
+
+.navbar p 
+{
+    font-size: 1.3em;
+    font-family: 'georgia';
+    padding-top: 8px;
+}
+
+.navbar-default {
+  background-color: rgba(10,186,238,1);
+  border: 0px;
+}
+
+/*Couleur police liens navbar*/
+ .navbar .nav > li > a 
+{  
+  color: white; 
+} 
+
+/*Couleur police titre (accueil) navbar*/
+.navbar-default .navbar-brand 
+{ 
+  color: white; 
+}
+
+
+/*Couleur boutons*/
+.btn-info
+{
+  color: #fff;
+  background-color: rgba(10,186,238,0.8);
+  border-color: #46b8da;
+}
+
+
+.container
+{
+  height: 100%;
+  width: 100%;
+}
+
+
+.container p 
+{
+  font-size: 1.2em;
+  font-family: 'georgia';
+}
+
+.jumbotron
+{
+  padding-top: 35px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: rgba(0,0,0,0);
+}
+
+
+/*photo d'accueil ronde*/
+.img-circle 
+{
+  border-radius: 50%;
+}
+
+
+/*Centrage banieres messages formulaire*/
+.alert 
+{
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+/*Couleur contour baniere message erreur formulaire*/
+.alert-danger
+{
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  border: 1px solid #a94442;
+  border-radius: 4px;
+}
+
+/*Couleur contour baniere message reussite formulaire*/
+.alert-success 
+{
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  border: 1px solid #3c763d;
+  border-radius: 4px;
+}
+
+
+#accueil
+{
+  font-family: 'Times New Roman';
+  text-align: center;
+  height: 800px;
+  background: url('images/fond-ecran2.jpg') fixed center no-repeat;
+}
+
+/*Icones liens réseaux sociaux*/
+#viadeo
+{
+  height: 50px;
+  width: 50px;
+}
+  
+
+#doyoubuzz
+{
+  height: 54px;
+  width: 54px;
+}
+
+
+#linkedin
+{
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+}
+
+
+#github
+{
+  width: 56px;
+  height: 56px;
+}
+
+#a_propos 
+{
+  margin-top: 40px;
+}
+
+
+#aides
+{
+  margin-top: 70px;
+  background-color: #9cafbc;
+  box-shadow: 0px 2px 5px #1c1a19;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+}
+
+#aides h2
+{
+  color: white;
+}
+
+
+#projets
+{
+  height: 900px;
+  background: url('images/fond-ecran2.jpg') fixed center no-repeat;
+}
+
+/*Dessin bourse dans aides*/
+#bourse
+{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 70px;
+  height: 70px;
+}
+
+
+/*Photo dans projets*/
+#travail
+{
+  margin-top: 90px;
+  height: 478px;
+  width: 400px;
+  margin-left: 50px;
+}
+
+
+/*Pour smartphone*/
+
+@media all and (max-device-width: 480px)
+{
+
+  #img-profil
+  {
+    height: 50%;
+    width: 50%;
+  }
+
+
+  .container p 
+  {
+    font-size: 1.1em;
+  }
+
+
+  h2
+  {
+    font-size: 1.6em;
+  }
+
+
+  .jumbotron h1,
+  .jumbotron .h1 
+  { 
+  padding-top: 0px;
+  }
+
+  #accueil
+  {
+    height: 600px;
+    background-attachment: inherit local fixed !important;
+    position: static;
+  }
+
+  #projets
+  {
+    background: none;
+  }
+
+}
